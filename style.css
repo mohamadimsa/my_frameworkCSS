@@ -75,6 +75,12 @@
     .container {
         width: 100%;
     }
+    .visible-sm {
+        display: block;
+    }
+    .hidden-sm {
+        display: none;
+    }
     .col-1-sm {
         grid-column: span 1;
     }
@@ -117,6 +123,12 @@
 /*VERSION TABLET*/
 
 @media screen and (max-width:1024px) {
+    .visible-md {
+        display: block;
+    }
+    .hidden-md {
+        display: none;
+    }
     .col-1-md {
         grid-column: span 1;
     }
@@ -159,6 +171,12 @@
 /*VERSION ORDINATEUR*/
 
 @media screen and (min-width:1024px) {
+    .visible-xl {
+        display: block;
+    }
+    .hidden-xl {
+        display: none;
+    }
     .col-1-xl {
         grid-column: span 1;
     }
@@ -345,3 +363,6 @@
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border-radius: 0;
 }
+
+
+/*Remplissage*/
